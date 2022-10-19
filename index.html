@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+          background: url(bj.jpg) no-repeat;
+          background-size: 100%;
+            font-family: '宋体';
+        }
+
+        li {
+            list-style: none;
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        p {
+            color:#fff ;
+        }
+        span {
+            line-height: 40px;
+            padding-left: 30px;
+            font-size: 25px;
+            font-weight: 800;
+            color:#fff ;
+        }
+        /* 首页头部 */
+        .header {
+            height: 45px;
+            background-color: rgba(0, 0, 0, 0.4);
+
+        }
+
+        .header .hleft {
+            float: left;
+            width: 700px;
+        }
+
+        .header ul li a {
+            float: left;
+            display: block;
+            width: 149px;
+            height: 40px;
+            color: #fff;
+            line-height: 40px;
+            text-align: center;
+        }
+        .header ul li a:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .hright .small {
+            width: 20px;
+            height: 20px;
+            background-color: pink;
+        }
+        /* 图片 */
+        .img {
+            position: absolute;
+            left: 690px;
+            /* margin-left: -70px; */
+            top: 170px;
+            /* margin-top: -70px;  */
+            width: 140px;
+            height: 140px;
+            border-radius: 150px;
+            overflow: hidden;
+            /* 调用动画 */
+            animation: rotato 2s steps(10) infinite;
+        }
+
+        .img img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .body {
+            position: absolute;
+            left: 650px;
+            top: 310px;
+            height: 300px;
+        }
+        .enter {
+            /* 绝对定位 */
+            position: absolute;
+            top: 160px;
+            left: 75px;
+            width: 100px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+            padding-left: 15px;
+        }
+        .enter p {
+            display: block;
+            line-height: 50px;
+            font-size: 32px;
+        }
+    /* 头像旋转动画 */
+        @keyframes rotato {
+            0% {
+                transform: rotateZ(0);
+            }
+
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="hleft">
+            <span>Welcome to my blog</span>
+        </div>
+        <div class="hright">
+            <ul>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="index1.html" target="_blank">关于我</a>
+                </li>
+                <li>
+                    <a href="index2.html" target="_blank">我的相册</a>
+                </li>
+                <li>
+                    <a href="index3.html" target="_blank">心情记</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="img">
+        <img src="touxiang.jpg" alt="">
+    </div>
+    <div class="body">
+
+        <p align="center"> <br />
+            <br />
+        </p>
+            <p align="center">
+                <font size="7"><strong>大家好呀！</strong><br />
+            </p>
+
+            <p align="center"><font size="6"><strong>Welcome to my word</strong></font><br /> 
+            </p>
+            <div class="enter">
+                <a href="index1.html" target="_blank">
+                        <p>enter</p>
+                </a>
+            </div>
+
+    </div>
+</body>
+
+</html>

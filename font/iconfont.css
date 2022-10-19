@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3696413 */
+  src: url('iconfont.woff2?t=1666151875129') format('woff2'),
+       url('iconfont.woff?t=1666151875129') format('woff'),
+       url('iconfont.ttf?t=1666151875129') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-douyin:before {
+  content: "\e8db";
+}
+
+.icon-daxiao:before {
+  content: "\e63e";
+}
+
+.icon-weibo:before {
+  content: "\e65a";
+}
+
+.icon-QQ-circle-fill:before {
+  content: "\e887";
+}
+
+.icon-wink:before {
+  content: "\e641";
+}
+
+.icon-kuqi:before {
+  content: "\e61b";
+}
+
+.icon-pinpaibiaoshi_douyin:before {
+  content: "\e659";
+}
+
+.icon-baitianmoshimingliangmoshi:before {
+  content: "\e632";
+}
+
+.icon-cehuixiaoheditumoshi:before {
+  content: "\e631";
+}
+
+.icon-dark:before {
+  content: "\e666";
+}
+
+.icon-kapianmoshi:before {
+  content: "\e643";
+}
+
+.icon-youxi1:before {
+  content: "\e62f";
+}
+
+.icon-aihao:before {
+  content: "\e603";
+}
+
+.icon-flag:before {
+  content: "\e7a6";
+}
+
+.icon-nianling:before {
+  content: "\e630";
+}
+
+.icon-nianlingguangfan-02:before {
+  content: "\e676";
+}
+
+.icon-xiangshangshouqi:before {
+  content: "\e679";
+}
+
+.icon-ziyuan25:before {
+  content: "\e608";
+}
+
+.icon-shouye:before {
+  content: "\e635";
+}
+
+.icon-tianqi1:before {
+  content: "\e623";
+}
+
+.icon-tianqi:before {
+  content: "\e694";
+}
+

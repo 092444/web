@@ -1,0 +1,156 @@
+{
+  "id": "3696413",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18166694",
+      "name": "抖音",
+      "font_class": "douyin",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "1305459",
+      "name": "大笑",
+      "font_class": "daxiao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1382585",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "4937004",
+      "name": "QQ-circle-fill",
+      "font_class": "QQ-circle-fill",
+      "unicode": "e887",
+      "unicode_decimal": 59527
+    },
+    {
+      "icon_id": "18012887",
+      "name": "眨眼",
+      "font_class": "wink",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "18626890",
+      "name": "哭泣",
+      "font_class": "kuqi",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "22908389",
+      "name": "品牌标识_抖音",
+      "font_class": "pinpaibiaoshi_douyin",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "398280",
+      "name": "白天模式，明亮模式",
+      "font_class": "baitianmoshimingliangmoshi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "754732",
+      "name": "测绘校核-地图模式",
+      "font_class": "cehuixiaoheditumoshi",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "11734519",
+      "name": "dark,夜间模式,黑夜模式,深色模式,暗黑模式",
+      "font_class": "dark",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "22378765",
+      "name": "卡片模式",
+      "font_class": "kapianmoshi",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "3777801",
+      "name": "游戏",
+      "font_class": "youxi1",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "3901159",
+      "name": "爱好",
+      "font_class": "aihao",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11231899",
+      "name": "flag",
+      "font_class": "flag",
+      "unicode": "e7a6",
+      "unicode_decimal": 59302
+    },
+    {
+      "icon_id": "15969343",
+      "name": "年龄",
+      "font_class": "nianling",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "17164676",
+      "name": "年龄广泛",
+      "font_class": "nianlingguangfan-02",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "23099843",
+      "name": "向上收起",
+      "font_class": "xiangshangshouqi",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "21649092",
+      "name": "爱好",
+      "font_class": "ziyuan25",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "765770",
+      "name": "天气",
+      "font_class": "shouye",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "1106630",
+      "name": "天气",
+      "font_class": "tianqi1",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "666890",
+      "name": "天气",
+      "font_class": "tianqi",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    }
+  ]
+}
