@@ -405,7 +405,7 @@ margin-top: 15px;
     height: 180px;
 }
 .world:hover img {
-    transform: scale(1.1);
+    transform: rotate(15deg);
 }
 /* footer */
 footer {

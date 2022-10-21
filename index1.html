@@ -10,6 +10,7 @@
     <script src="animate.js"></script>
     <!-- 引入我们首页的js文件 -->
     <script src="index.js"></script>
+    <script src="index1.js"></script>
     <title>关于我</title>
 </head>
 
@@ -28,7 +29,6 @@
         <img src="images/change3.jpg" alt="">
         <img src="images/change4.jpg" alt="">
     </div>
-  
     <!-- 返回头部 -->
     <div class="slider-bar">
         <a href="#back"><span class="iconfont">&#xe679  </span></a>
@@ -99,12 +99,14 @@
     <div class="about animate__animated animate__bounceInDown animate__slower-2s">
         <div class="left">
                 <img src="images/touxiang.jpg" alt="">
-                <span class="iconfont">&#xe65a </span>
-                <span class="iconfont">&#xe8db </span>
-                <span class="iconfont">&#xe887 </span>
+               
+                <span class="iconfont" id="wb" onclick="mclick();">&#xe65a </span>
+                <span class="iconfont" id="dy" onclick="mclick();">&#xe8db </span>
+                <span class="iconfont" id="qq" onclick="mclick();">&#xe887 </span>
                 <span class="iconfont">&#xe63e </span>
                 <span class="iconfont">&#xe641 </span>
                 <span class="iconfont">&#xe61b </span>
+             
                 
             </div>
         <div class="right">
@@ -211,5 +213,4 @@
         }
     </script>
 </body>
-
 </html>
