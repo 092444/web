@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="live2d/css/live2d.css">
     <title>我的博客</title>
     <style>
         * {
@@ -13,8 +13,8 @@
         }
 
         body {
-          background: url(images/bj.jpg) no-repeat;
-          background-size: 100%;
+            background: url(images/bj.jpg) no-repeat;
+            background-size: 100%;
             font-family: '宋体';
         }
 
@@ -28,16 +28,19 @@
             text-decoration: none;
             color: black;
         }
+
         p {
-            color:#fff ;
+            color: #fff;
         }
+
         span {
             line-height: 40px;
             padding-left: 30px;
-            font-size: 25px;
+            font-size: 30px;
             font-weight: 800;
-            color:#fff ;
+            color: #fff;
         }
+
         /* 首页头部 */
         .header {
             height: 45px;
@@ -59,14 +62,17 @@
             line-height: 40px;
             text-align: center;
         }
+
         .header ul li a:hover {
             background-color: rgba(0, 0, 0, 0.8);
         }
+
         .hright .small {
             width: 20px;
             height: 20px;
             background-color: pink;
         }
+
         /* 图片 */
         .img {
             position: absolute;
@@ -93,6 +99,7 @@
             top: 310px;
             height: 300px;
         }
+
         .enter {
             /* 绝对定位 */
             position: absolute;
@@ -104,12 +111,14 @@
             border-radius: 20px;
             padding-left: 15px;
         }
+
         .enter p {
             display: block;
             line-height: 50px;
             font-size: 32px;
         }
-    /* 头像旋转动画 */
+
+        /* 头像旋转动画 */
         @keyframes rotato {
             0% {
                 transform: rotateZ(0);
@@ -152,19 +161,36 @@
         <p align="center"> <br />
             <br />
         </p>
-            <p align="center">
-                <font size="7"><strong>大家好呀！</strong><br />
-            </p>
+        <p align="center">
+            <font size="7"><strong>大家好呀！</strong><br />
+        </p>
 
-            <p align="center"><font size="6"><strong>Welcome to my word</strong></font><br /> 
-            </p>
-            <div class="enter">
-                <a href="index1.html" target="_blank">
-                        <p>enter</p>
-                </a>
-            </div>
-
+        <p align="center">
+            <font size="6"><strong>Welcome to my word</strong></font><br />
+        </p>
+        <div class="enter">
+            <a href="index1.html" target="_blank">
+                <p>enter</p>
+            </a>
+        </div>
     </div>
+    <!-- live2D -->
+    <div class="live2d">
+        <div id="landlord">
+            <div class="message" style="opacity:0"></div>
+            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+            <div class="hide-button">隐藏</div>
+        </div>
+    </div>
+    <script src=" https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        var message_Path = 'live2d/'
+        var home_Path = 'https://092444.github.io/web/'  //此处修改为你的域名，必须带斜杠
+    </script>
+    <script type="text/javascript" src="live2d/js/live2d.js"></script>
+    <script type="text/javascript" src="live2d/js/message.js"></script>
+    <script type="text/javascript">
+        loadlive2d("live2d","live2d/model\tia/model.json");
+    </script>
 </body>
-
 </html>
